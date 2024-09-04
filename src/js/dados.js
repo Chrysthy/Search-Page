@@ -18,6 +18,12 @@ let dados = [
         titulo: "Audi Q3",
         descricao: "O Audi Q3 2024 é um SUV compacto que combina elegância e desempenho. Com um design sofisticado e um interior luxuoso, o Q3 oferece tecnologia avançada e um excelente conforto, sendo uma ótima opção para quem busca estilo e praticidade.",
         link: "https://www.webmotors.com.br/audi/q3/2024"
+    },
+
+    {
+        titulo: "Nissan Leaf",
+        descricao: "O Nissan Leaf 2024 é um dos carros elétricos mais acessíveis do mercado, conhecido por seu design moderno e tecnologia inovadora. Com uma autonomia melhorada e uma condução suave, o Leaf é uma excelente opção para quem deseja um veículo sustentável e econômico.",
+        link: "https://www.webmotors.com.br/nissan/leaf/2024"
     }
 
 ];
