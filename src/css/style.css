@@ -78,3 +78,8 @@ section button {
 .item-resultado a:hover {
     text-decoration: underline; 
 }
+
+.descricao-meta {
+    color: #45474B; 
+    margin: 0.5rem 0; 
+}
