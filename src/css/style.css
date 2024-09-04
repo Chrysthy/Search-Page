@@ -73,3 +73,8 @@ section button {
     text-decoration: none; 
     color: #30475E; 
 }
+
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
