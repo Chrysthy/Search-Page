@@ -83,3 +83,14 @@ section button {
     color: #45474B; 
     margin: 0.5rem 0; 
 }
+
+footer {
+    background-color: #F5F7F8; 
+    color: #45474B; 
+    text-align: center; 
+    padding: 0; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    font-size: 1rem; 
+}
