@@ -68,3 +68,8 @@ section button {
     font-size: 1.5rem; 
     color: #222831; 
 }
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #30475E; 
+}
