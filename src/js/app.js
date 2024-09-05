@@ -1,27 +1,31 @@
-let section = document.getElementById('resultados-pesquisa');
-
-let resultados = ""
-
-for (let dado of dados) {
-
-    resultados.innerHTML += `
+function pesquisar () {
     
-                <div class="item-resultado">
+    let section = document.getElementById('resultados-pesquisa');
     
-                    <h2>
+    let resultados = ""
     
-                        <a href="#" target="_blank">${dado.titulo}</a>
+    for (let dado of dados) {
     
-                    </h2>
+        resultados.innerHTML += `
+        
+                    <div class="item-resultado">
+        
+                        <h2>
+        
+                            <a href="#" target="_blank">${dado.titulo}</a>
+        
+                        </h2>
+        
+                        <p class="descricao-meta">${dado.descricao}</p>
+        
+                        <a href="${dado.link}" target="_blank">Mais informações</a>
+        
+                    </div>
+        
+        
+        `
+    }
     
-                    <p class="descricao-meta">${dado.descricao}</p>
+    section.innerHTML = resultados;
     
-                    <a href="${dado.link}" target="_blank">Mais informações</a>
-    
-                </div>
-    
-    
-    `
 }
-
-section.innerHTML = resultados;
