@@ -2,11 +2,11 @@ function pesquisar () {
     
     let section = document.getElementById('resultados-pesquisa');
     
-    let resultados = ""
+    let resultados = "";
     
     for (let dado of dados) {
     
-        resultados.innerHTML += `
+        resultados += `
         
                     <div class="item-resultado">
         
@@ -27,5 +27,5 @@ function pesquisar () {
     }
     
     section.innerHTML = resultados;
-    
+
 }
