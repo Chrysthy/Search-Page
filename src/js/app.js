@@ -6,7 +6,7 @@ section.innerHTML = `
 
                 <h2>
 
-                    <a href="#" target="_blank">Hyundai</a>
+                    <a href="#" target="_blank">${dados[0].titulo}</a>
 
                 </h2>
 
