@@ -1,8 +1,10 @@
 let section = document.getElementById('resultados-pesquisa');
 
+let resultados = ""
+
 for (let dado of dados) {
 
-    section.innerHTML += `
+    resultados.innerHTML += `
     
                 <div class="item-resultado">
     
@@ -22,3 +24,4 @@ for (let dado of dados) {
     `
 }
 
+section.innerHTML = resultados;
