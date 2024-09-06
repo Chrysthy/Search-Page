@@ -1,11 +1,14 @@
-function pesquisar () {
-    
+function pesquisar() {
+
     let section = document.getElementById('resultados-pesquisa');
-    
+
+    let campoPesquisa = document.getElementById('campo-pesquisa');
+
+
     let resultados = "";
-    
+
     for (let dado of dados) {
-    
+
         resultados += `
         
                     <div class="item-resultado">
@@ -25,7 +28,7 @@ function pesquisar () {
         
         `
     }
-    
+
     section.innerHTML = resultados;
 
 }
