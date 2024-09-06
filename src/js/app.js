@@ -4,6 +4,10 @@ function pesquisar() {
 
     let campoPesquisa = document.getElementById('campo-pesquisa').value;
 
+    if (campoPesquisa == "") {
+
+        return
+    }
 
     let resultados = "";
 
