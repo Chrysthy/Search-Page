@@ -6,6 +6,8 @@ function pesquisar() {
 
     if (campoPesquisa == "") {
 
+        section.innerHTML = " <p> Nada foi encontrado </p>"
+
         return
     }
 
