@@ -2,12 +2,14 @@ function pesquisar() {
 
     let section = document.getElementById('resultados-pesquisa');
 
-    let campoPesquisa = document.getElementById('campo-pesquisa');
+    let campoPesquisa = document.getElementById('campo-pesquisa').value;
 
 
     let resultados = "";
 
     for (let dado of dados) {
+
+        dado.titulo.includes(campoPesquisa);
 
         resultados += `
         
