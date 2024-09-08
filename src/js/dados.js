@@ -2,9 +2,17 @@ let dados = [
 
     {
 
-        titulo: "Hyundai",
+        titulo: "Hyundai - HB20",
         descricao: "O Hyundai HB20 2023 é um hatch compacto muito popular no Brasil, conhecido por seu design moderno e tecnologia embarcada. A linha 2023 traz melhorias estéticas, principalmente na grade frontal e nos faróis, além de atualizações nos itens de conforto e segurança.O carro oferece uma variedade de versões com motorização que vai desde o 1.0 aspirado até o 1.0 turbo, com opções de câmbio manual e automático.",
         link: "https://www.webmotors.com.br/hyundai/hb20/2023"
+
+    },
+
+    {
+
+        titulo: "Hyundai - Creta",
+        descricao: "Hyundai Creta é um SUV compacto popular lançado pela Hyundai, projetado para oferecer um equilíbrio entre conforto, tecnologia e desempenho. Ele possui um design moderno, com linhas robustas e elegantes. O Creta é equipado com uma variedade de motores, incluindo opções flex no Brasil, e oferece uma boa lista de itens de série, como central multimídia, controle de tração e airbags. Internamente, ele oferece um espaço confortável para os passageiros e uma posição elevada de direção, características que o tornam uma escolha atraente para famílias e pessoas que buscam versatilidade urbana.",
+        link: "https://www.webmotors.com.br/hyundai/creta/2023"
 
     },
 
