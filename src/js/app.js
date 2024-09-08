@@ -2,7 +2,7 @@ function pesquisar() {
 
     let section = document.getElementById('resultados-pesquisa');
 
-    let campoPesquisa = document.getElementById('campo-pesquisa').value;
+    let campoPesquisa = document.getElementById('campo-pesquisa').value.trim();
 
     if (campoPesquisa == "") {
 
