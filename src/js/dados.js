@@ -13,26 +13,30 @@ let dados = [
 
         titulo: "Hyundai - Creta",
         descricao: "Hyundai Creta é um SUV compacto popular lançado pela Hyundai, projetado para oferecer um equilíbrio entre conforto, tecnologia e desempenho. Ele possui um design moderno, com linhas robustas e elegantes. O Creta é equipado com uma variedade de motores, incluindo opções flex no Brasil, e oferece uma boa lista de itens de série, como central multimídia, controle de tração e airbags. Internamente, ele oferece um espaço confortável para os passageiros e uma posição elevada de direção, características que o tornam uma escolha atraente para famílias e pessoas que buscam versatilidade urbana.",
-        link: "https://www.webmotors.com.br/hyundai/creta/2023"
+        link: "https://www.webmotors.com.br/hyundai/creta/2023",
+        imagem: "https://carroscomcamanzi.com.br/wp-content/uploads/2023/01/Hyundai-Creta-2023.jpg"
 
     },
 
     {
         titulo: "Ford Ranger",
         descricao: "A Ford Ranger 2024 é uma picape de médio porte com design robusto e moderno, oferecendo uma cabine espaçosa e várias opções de motorização. O modelo traz melhorias na tecnologia e conforto, ideal para quem busca desempenho tanto em estrada quanto fora dela.",
-        link: "https://www.webmotors.com.br/ford/ranger/2024"
+        link: "https://www.webmotors.com.br/ford/ranger/2024",
+        imagem: "https://portallubes.com.br/wp-content/uploads/2023/07/nova-ford-ranger-2024.webp"
     },
 
     {
         titulo: "Audi Q3",
         descricao: "O Audi Q3 2024 é um SUV compacto que combina elegância e desempenho. Com um design sofisticado e um interior luxuoso, o Q3 oferece tecnologia avançada e um excelente conforto, sendo uma ótima opção para quem busca estilo e praticidade.",
-        link: "https://www.webmotors.com.br/audi/q3/2024"
+        link: "https://www.webmotors.com.br/audi/q3/2024",
+        imagem: "https://quatrorodas.abril.com.br/wp-content/uploads/2018/11/audi-q3_turbo-blue_008.jpg?quality=70&strip=info&w=720&crop=1"
     },
 
     {
         titulo: "Nissan Leaf",
         descricao: "O Nissan Leaf 2024 é um dos carros elétricos mais acessíveis do mercado, conhecido por seu design moderno e tecnologia inovadora. Com uma autonomia melhorada e uma condução suave, o Leaf é uma excelente opção para quem deseja um veículo sustentável e econômico.",
-        link: "https://www.webmotors.com.br/nissan/leaf/2024"
+        link: "https://www.webmotors.com.br/nissan/leaf/2024",
+        imagem: "https://blog.carrera.com.br/wp-content/uploads/2023/04/nissan-leaf-20223.jpg"
     }
 
 ];
