@@ -2,7 +2,7 @@ function pesquisar() {
 
     let section = document.getElementById('resultados-pesquisa');
 
-    let campoPesquisa = document.getElementById('campo-pesquisa').value.trim();
+    let campoPesquisa = document.getElementById('campo-pesquisa').value.trim().toLowerCase();
 
     if (campoPesquisa == "") {
 
@@ -15,7 +15,7 @@ function pesquisar() {
 
     for (let dado of dados) {
 
-        if (dado.titulo.includes(campoPesquisa)) {
+        if (dado.titulo.trim().toLowerCase().includes(campoPesquisa)) {
 
             resultados += `
             
