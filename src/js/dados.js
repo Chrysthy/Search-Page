@@ -4,7 +4,8 @@ let dados = [
 
         titulo: "Hyundai - HB20",
         descricao: "O Hyundai HB20 2023 é um hatch compacto muito popular no Brasil, conhecido por seu design moderno e tecnologia embarcada. A linha 2023 traz melhorias estéticas, principalmente na grade frontal e nos faróis, além de atualizações nos itens de conforto e segurança.O carro oferece uma variedade de versões com motorização que vai desde o 1.0 aspirado até o 1.0 turbo, com opções de câmbio manual e automático.",
-        link: "https://www.webmotors.com.br/hyundai/hb20/2023"
+        link: "https://www.webmotors.com.br/hyundai/hb20/2023",
+        imagem: "https://quatrorodas.abril.com.br/wp-content/uploads/2022/07/Hyundai-HB20.jpg?quality=70&strip=info&w=720&crop=1"
 
     },
 

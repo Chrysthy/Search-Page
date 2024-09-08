@@ -6,7 +6,7 @@ function pesquisar() {
 
     if (campoPesquisa == "") {
 
-        section.innerHTML = " <p> Nada foi encontrado </p>"
+        section.innerHTML = '<p class="texto-nada-encontrado"> Nada foi encontrado </p>'
 
         return
     }
@@ -30,6 +30,11 @@ function pesquisar() {
                             <p class="descricao-meta">${dado.descricao}</p>
             
                             <a href="${dado.link}" target="_blank">Mais informações</a>
+
+                            <br>
+                            <br>
+
+                            <img src="${dado.imagem}" alt="Imagem de ${dado.titulo}" class="item-imagem">
             
                         </div>
             

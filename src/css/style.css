@@ -19,9 +19,9 @@ body {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;    
+    z-index: -1;
     object-fit: cover;
-   
+
 }
 
 /* Estilo para o conteúdo por cima do vídeo */
@@ -82,6 +82,7 @@ section button {
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .item-resultado h2 {
@@ -94,9 +95,20 @@ section button {
     color: #30475E;
 }
 
+.item-resultado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
 
 .item-resultado a:hover {
     text-decoration: underline;
+}
+
+.texto-nada-encontrado {
+    color: #F5F7F8;
 }
 
 .descricao-meta {
