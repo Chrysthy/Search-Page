@@ -25,3 +25,9 @@
 - JavaScript;
 - Git e GitHub.
 
+## ✨ Features
+
+- Page Integration;
+- Responsive layout;
+- Search in the 'database'.
+
