@@ -31,3 +31,10 @@
 - Responsive layout;
 - Search in the 'database'.
 
+## 💻 Project
+
+- The website was created to practice HTML, CSS and JavaScript skills.
+
+## 📜 License
+
+* This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
