@@ -17,3 +17,11 @@
 <p align="center">
   <img alt="Imagem do Projeto" src=".github/imagem-do-projeto.PNG" width="80%">
 </p>
+
+## 🛠 Technologies
+
+- HTML;
+- CSS;
+- JavaScript;
+- Git e GitHub.
+
